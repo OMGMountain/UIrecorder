@@ -1,28 +1,18 @@
-UI Recorder test sample project
-================
+### UIrecorder
+1, 安装所有依赖  
+    
+    npm install 
 
-It's a UI Recorder test sample project.
+2, 脚本录制,执行下面代码后 一路回车就可以
 
-Save your test code here.
+    uirecorder start
 
-Get more info: [http://uirecorder.com/](http://uirecorder.com/)
+3, 脚本回放
 
-How to run test case?
-================
+    selenium-standalone start  // 开启服务 在新开个执行页面 
+    mocha sample/test.spec.js 
 
-1. npm install
-2. source run.sh ( Linux|Mac ) or run.bat ( Windows )
+### 云浏览器测试 在config.json 中更改地址
 
-How to dock jenkins?
-================
-
-1. Add commands
-
-        source ./install.sh
-        source ./run.sh
-
-2. Add reports
-
-    > JUnit: reports/index.xml
-
-    > HTML: reports/
+### 常见问题
+开发过程中主要就是 因为 chromedriver 版本不匹配导致的项目启动不了

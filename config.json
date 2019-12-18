@@ -2,13 +2,19 @@
     "webdriver": {
         "host": "127.0.0.1",
         "port": "4444",
-        "browsers": "chrome"
+        "browsers": "chrome",
+        "f2etest.userid": "User1574760266225",
+        "f2etest.apiKey": "ff3ab0a91aa479b433f1b8a5d8d78128"
     },
     "vars": {
-        "a": "baidu"
+        "a": "baidu",
+        "b": "{b:1}"
     },
     "recorder": {
-        "pathAttrs": "data-id,data-name,type,data-type,role,data-role,data-value"
+        "pathAttrs": "data-id,data-name,type,data-type,role,data-role,data-value",
+        "attrValueBlack": "",
+        "classValueBlack": "",
+        "hideBeforeExpect": ""
     },
     "attrValueBlack": "",
     "classValueBlack": "",
